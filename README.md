@@ -21,42 +21,54 @@ For the analysis of the data, as said transformation of variables where performe
 
 ## Data Transformation
 Variable type was evaluated and modified using pandas library. 
-Code can be found [here]()
+Code can be found [here](NYC_Citibike_Challenge.ipynb)
 
 Modifications: 
 
 - Initial data type
-
+![Jupyter1](Resources/Jupyter1.png)
 - Transforming code
-
-- Results
+![Jupyter2](Resources/Jupyter2.png)
+- Results export and new DataFrame
+![Jupyter3](Resources/Jupyter3.png)
 
 
 ## Visualization in Tableau
-The following where the different Charts and Graphs developed using Tableau Public
-
+The following were of the different Charts and Graphs developed using Tableau Public
+![chartssample](Resources/Trips weekdayGenderUser.png)
+![chartssample2](Resources/CheckOutTimeByUserByGender.png)
+![chartssample3](Resources/TripsWeekDayByHourByGender.png)
 
 ## Story Integration with Tableau Public
 After creating the different charts and graphs, the following Dashboards were created surrounding different aspects of the data analysis. It included analysis of the main aspects of each group of data.
+
 
 ## Story Integration with Tableau Public
 Finally using all the charts and Dashboards a story was created, uploaded, and published. 
 
 
 ## Data Analysis main point results: 
+![Dash1](Resources/Dash1.png)
+
 City Bike project had a total number od 2, 344,22 trips during the follow up period of the dataset. 
 Out of those totals of trips a total of 13,983 members where involved, with different average in use between members, Involving different ages for users. Main spikes in trip duration average was found in users born in 1890 and another one with users born in 1970, but in average the Trip Duration Average for users was around 500 during the follow up period. 
 
 Bike Share program general Information:
+![Dash2](Resources/Dash2.png)
+
 The following shows the total Number of Trips, user types, Trip duration by age, and trip duration by minutes per hour durations.
 As seen must users of the bikes are Subscribers and the average trip duration is around 1 hour with most of them short trips of less than 40 min 2 big Peek Hours for the service was found between 8 and 9am and 5 to 7pm. Whereas, Lowest activity was reported between 1 am and 4 am. Meaning this seem to be good hours for repair or clean up service. 
 Busiest day pf the week were weekdays
 
 Locations and Service time
+![Dash3](Resources/Dash3.png)
+
 Following Maps show most frequent start point and end point of trips. Notice that both almost overlap, meaning the areas might be related to important or busy city locations. 
 Bike Utilization per user seem to have some average, although there are some users that frequent the service in a constant manner.  Bike repairs per user range from around 500 to 1 
 
 Regarding Gender
+![Dash4](Resources/Dash4.png)
+
 Gender related information revealed that subscribers tended to be more Males users. The busiest day was Thursday in this gender. Female subscribers didn’t seem to have a frequent day for the use of the service, but hot zones for usage remained around same tie and weekday in both genders. 
 Unknown gender users were not as common but seemed to appear more during weekends. This seems the same for non-subscribers customers using the service. 
 Trip duration was higher for males than females, but neither used more than 2 hours the bikes. 
